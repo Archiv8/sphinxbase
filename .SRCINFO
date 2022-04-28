@@ -11,10 +11,11 @@ pkgbase = sphinxbase
 	depends = python
 	depends = lapack
 	depends = libpulse
+	depends = libsamplerate
 	options = !libtool
 	source = http://downloads.sourceforge.net/project/cmusphinx/sphinxbase/5prealpha/sphinxbase-5prealpha.tar.gz
 	source = sphinxbase-5prealpha-fix-doxy2swig.patch
-	sha256sums = f72bdb59e50b558bed47cc2105777200d2b246a0f328e913de16a9b22f9a246f
-	sha256sums = 1cb485202f83dc517872f5ab41f59d18884af1b85799166d80e08860f7729919
+	sha512sums = 9d999d0b9041c0965ff679636e3c5705987b70317a353916f447809a916878d831a82a5d9c1476d304f908df1ce6b68eb07c906af4f7b86ab84b859ee1b0d20b
+	sha512sums = 09c31a2fef4f63146c4f2b6440cb604392b16fc24f84679bce0a991541d7264082e281ae9f1d10bdf16701d3dc9e12166364243e14a1a65683fb7301ba2f8b1b
 
 pkgname = sphinxbase
